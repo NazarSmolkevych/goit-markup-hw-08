@@ -52,21 +52,67 @@
 //     fill: var(--hero-title-color);
 // }
 
-//  .social-page {
-//         display: flex;
-//         align-items: baseline;
-//     }
 
 
 
 
+ .social-page {
+       display: block;
+       margin-bottom: 0;
+       margin-top: 0;
+       list-style: none;
+ }
 
-        .social-list-page {
+@media screen and (min-width:1200px) {
+    .social-page{
+        display: flex;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .social-page {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        row-gap: 60px;
+    }
+}
+
+ .social-list-focus {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+    //  margin-top: 20px;
+     gap: 10px;
+ }
+
+   @media screen and (min-width:1200px) {
+        .social-list-focuse {
+          justify-content: space-between;
+       }
+   }
+ 
+ .social-list-page{
+    margin-top: 60px;
+ }
+ 
+ @media screen and (min-width:1200px) {
+     .social-list-page {
+      margin-left: 70px;
+     }
+ }
+ 
+ 
+ 
+ 
+ 
+ // .social-list-page {
     
-            width: 206px;
-            height: 80px;
-            margin-left: 70px;
-        }
+        //     width: 206px;
+        //     height: 80px;
+        //     margin-left: 70px;
+        // }
     
         .titlepage {
             font-family: var(--primary-font);
@@ -83,18 +129,18 @@
         //     align-items: baseline;
         // }
     
-        .social-list-focus {
-            display: flex;
-            margin-top: 20px;
-            gap: 10px;
-        }
-    
+        //    .social-list-focus {
+        //        display: flex;
+        //        margin-top: 20px;
+        //        gap: 10px;
+        //    }
         .social-list-adress {
             display: flex;
             justify-content: center;
             align-items: center;
             width: 44px;
             height: 44px;
+            margin-top: 20px;
             border-radius: 50%;
             fill: var(--accent-color);
             background: rgba(255, 255, 255, 0.1);

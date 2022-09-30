@@ -1,16 +1,16 @@
 .page-footer {
     // display: inline-block;
     // flex-direction: row;
-    // text-align: center;
+    text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--background-dar-color);
 }
 
 @media screen and (min-width:1200px) {
-    // .page-footer{
-    //     text-align: left;
-    // }
+    .page-footer{
+        text-align: left;
+    }
     
 }
 .adrees-page {
@@ -39,7 +39,7 @@
 }
 
 .contact-footer {
-    margin-top: 9px;
+    // margin-top: 9px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.71;

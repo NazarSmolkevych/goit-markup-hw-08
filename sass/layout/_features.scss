@@ -1,3 +1,12 @@
+//  .benefit-list{
+//     // flex-wrap: wrap;
+//      display: flex;
+//       gap: 30px;
+//  }
+ 
+ 
+ 
+ 
  .antenna-box {
          display: flex;
          margin-bottom: 30px;
@@ -18,9 +27,7 @@
 
 .title {
     margin-bottom: 10px;
-    
-}
-
+    }
 
 .text {
     padding-bottom: 30px;
@@ -28,9 +35,8 @@
 }
 
 // .benefit-list {
-//     display: flex;
-//     justify-content: center;
-//     flex-basis: calc((100% - 90px)/4);
+    
+//     flex-basis: calc((100% - 90px) / 4);
 // }
 @media screen and (max-width: 767px) {
     .antenna-box{
@@ -46,30 +52,35 @@
     }
 
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
     .antenna-box {
         width: 270px;
         
     }
+      
+
+.benefit-list{
+    display: flex;
+    justify-content: center;
+    flex-basis: calc((100% - 90px)/4); 
 }
-
-
 
 @media screen and (max-width: 767px) {
     .title{
         text-align: center;
 
     }
+   
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px){
-    .title {
-        align-items: left;
-        display: flex;
-        flex-wrap: wrap;
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .benefit-list {
+        gap: 30px;
+    }
 
     }
-}
+    
+
     // .benefit-list{
     //     display: flex;
     //     flex-direction: row;
@@ -82,24 +93,19 @@
     //     flex-basis: calc((100% - 30px)/2);
     // }
 
-//  .benefit-list{
-//     // display: flex;
-// //     flex-wrap: wrap;
-// // }
-
-// }
 
 
 
 
-@media screen and (min-width:1200px) {
-  .title {
-        align-items: left;
+
+
+
+
+@media screen and (min-width: 1200px) {
+        .title {
+            align-items: left;
   }
-        .benefit-list {
-                display: flex;
-               
-             
+       
         }
         .elements {
              margin-right: 30px;
@@ -146,4 +152,4 @@
 //     height: 70px;
 //     justify-content: center;
 //     align-items: center;
-    // }
+// }
