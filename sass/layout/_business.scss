@@ -1,0 +1,66 @@
+
+@media screen and (max-width: 1199px) {
+.section-title-page{
+    display: none;
+}
+    
+}
+
+
+.section-title-page {
+    padding-top: 0;
+}
+
+.foto-elements {
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+.section-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.foto-item {
+    display: flex;
+    padding-bottom: 94px;
+    column-gap: 30px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.text {
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+}
+
+.foto-img {
+    position: relative;
+}
+
+.overley-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    width: 370px;
+    background-color: rgba(47, 48, 58, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--hero-title-color);
+}

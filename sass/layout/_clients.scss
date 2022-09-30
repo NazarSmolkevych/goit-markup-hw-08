@@ -1,0 +1,118 @@
+.client {
+    flex-wrap: wrap;
+    display: flex;
+    // display: flex;
+    // align-content: center;
+    // justify-content: center;
+    gap: 30px;
+}
+
+.clients {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    color: var(--primary-text-color);
+}
+
+.logo-client {
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+
+    fill: currentColor;
+}
+
+.client-frame {
+    display: flex;
+    width: 210px;
+    height: 92px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    color: #AFB1B8;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+
+&:hover,
+&:focus {
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+  }
+  }
+
+@media screen and (max-width: 767px) {
+    .client-frame {
+        width: 210px;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .client-frame {
+        width: 226px;
+    }
+
+}
+
+
+
+@media screen and (min-width:1200px) {
+    .client-frame{
+        width: 170px;
+    }
+}
+
+
+
+// .client {
+//     display: flex;
+//     align-content: center;
+//     justify-content: center;
+//     gap: 30px;
+// }
+
+// .clients {
+//     font-family: var(--primary-font);
+//     font-weight: 700;
+//     font-size: 36px;
+//     line-height: 42px;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+//     margin-bottom: 50px;
+//     color: var(--primary-text-color);
+// }
+
+// .logo-client {
+//     width: 106px;
+//     height: 60px;
+//     fill: #AFB1B8;
+    
+//     fill: currentColor;
+// }
+
+// .client-frame {
+//     display: flex;
+//     width: 170px;
+//     height: 92px;
+//     align-items: center;
+//     justify-content: center;
+//     border-radius: 4px;
+//     border: 1px solid #AFB1B8;
+//     color: #AFB1B8;
+//     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+
+// &:hover,
+// &:focus {
+//     border: 1px solid var(--accent-color);
+//     color: var(--accent-color);
+//   }
+//   }

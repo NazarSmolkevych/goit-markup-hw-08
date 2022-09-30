@@ -1,0 +1,149 @@
+ .antenna-box {
+         display: flex;
+         margin-bottom: 30px;
+         width: 450px;
+         height: 120px;
+         justify-content: center;
+         align-items: center;
+        //  gap: 30px;
+         background-color: #F5F4FA;
+     }
+
+.antenna-icon {
+        width: 70px;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+
+.title {
+    margin-bottom: 10px;
+    
+}
+
+
+.text {
+    padding-bottom: 30px;
+    color: var(--secondary-text-color);
+}
+
+// .benefit-list {
+//     display: flex;
+//     justify-content: center;
+//     flex-basis: calc((100% - 90px)/4);
+// }
+@media screen and (max-width: 767px) {
+    .antenna-box{
+    width: 450px;
+    
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .antenna-box{
+        width: 354px;
+        }
+    }
+
+
+@media screen and (min-width:1200px) {
+    .antenna-box {
+        width: 270px;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .title{
+        text-align: center;
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .title {
+        align-items: left;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+    // .benefit-list{
+    //     display: flex;
+    //     flex-direction: row;
+    //     flex-wrap: wrap;
+    //     gap: 30px;
+
+    // }
+    // .elements{
+    //     display: flex;
+    //     flex-basis: calc((100% - 30px)/2);
+    // }
+
+//  .benefit-list{
+//     // display: flex;
+// //     flex-wrap: wrap;
+// // }
+
+// }
+
+
+
+
+@media screen and (min-width:1200px) {
+  .title {
+        align-items: left;
+  }
+        .benefit-list {
+                display: flex;
+               
+             
+        }
+        .elements {
+             margin-right: 30px;
+             column-gap: 30px;
+         }
+   }       
+
+   
+
+
+
+
+
+// .section-container {
+//     display: flex;
+// }
+
+
+// .benefit-list {
+//     display: flex;
+//     column-gap: 30;
+
+
+
+
+// .elements {
+//     margin-right: 30px;
+//     column-gap: 30px;
+// }
+
+// .antenna-box {
+//     display: flex;
+//     margin-bottom: 30px;
+//     width: 270px;
+//     height: 120px;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 30px;
+//     background-color: #F5F4FA;
+// }
+
+// .antenna-icon {
+//     width: 70px;
+//     height: 70px;
+//     justify-content: center;
+//     align-items: center;
+    // }
