@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
 }
 .mobile-contact{
     margin-top: auto;
@@ -87,9 +88,9 @@ height: 40px;
         padding-top: 32px;
 }
 
-// .mobile-menu__contacts{
-//     margin-top: 302px;
-// }
+.mobile-menu__contacts{
+    margin-top: 302px;
+}
 .contact__mail{
     font-weight: 500;
     font-size: 24px;

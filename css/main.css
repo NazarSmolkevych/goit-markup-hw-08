@@ -55,6 +55,8 @@ body {
 .container {
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 480px) {
@@ -341,6 +343,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
 
 .mobile-contact {
@@ -406,6 +409,10 @@ body {
 
 .mobile-menu__contacts-tel {
   padding-top: 32px;
+}
+
+.mobile-menu__contacts {
+  margin-top: 302px;
 }
 
 .contact__mail {
@@ -604,8 +611,8 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .title {
-    align-items: center;
+  .benefit-list .title {
+    text-align: center;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -840,9 +847,15 @@ body {
 .client {
   flex-wrap: wrap;
   display: flex;
-  gap: 30px;
+  width: 100%;
+  grid-gap: 30px;
 }
 
+@media screen and (max-width: 767px) {
+  .companu {
+    width: calc((100% - 30px) / 2);
+  }
+}
 .clients {
   font-family: var(--primary-font);
   font-weight: 700;
@@ -879,7 +892,7 @@ body {
 
 @media screen and (max-width: 767px) {
   .client-frame {
-    width: 210px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -949,11 +962,6 @@ body {
   list-style: none;
 }
 
-@media screen and (min-width: 1200px) {
-  .social-page {
-    display: flex;
-  }
-}
 @media screen and (min-width: 768px) {
   .social-page {
     display: flex;
@@ -961,6 +969,11 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     row-gap: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .social-page {
+    display: flex;
   }
 }
 .social-list-focus {
@@ -1020,6 +1033,11 @@ body {
   margin-left: auto;
 }
 
+@media screen and (max-width: 767px) {
+  .footer-modal-form {
+    margin-top: 60px;
+  }
+}
 @media screen and (min-width: 768px) {
   .footer-modal-form {
     display: flex;
@@ -1040,6 +1058,14 @@ body {
   max-width: 480px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .footer-modal-text {
   font-family: var(--primary-font);
   font-weight: 700;
@@ -1054,9 +1080,12 @@ body {
 @media screen and (min-width: 1200px) {
   .footer-form {
     display: inline-flex;
+    flex-direction: row;
   }
 }
 .footer-form-message {
+  width: 100%;
+  max-width: 450px;
   height: 50px;
   padding-left: 16px;
   padding-right: 295px;

@@ -63,11 +63,6 @@
        list-style: none;
  }
 
-@media screen and (min-width: 1200px) {
-    .social-page{
-        display: flex;
-    }
-}
 
 @media screen and (min-width: 768px) {
     .social-page {
@@ -78,7 +73,11 @@
         row-gap: 60px;
     }
 }
-
+@media screen and (min-width: 1200px) {
+    .social-page {
+        display: flex;
+    }
+}
  .social-list-focus {
      display: flex;
      justify-content: center;
