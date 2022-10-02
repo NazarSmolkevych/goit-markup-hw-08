@@ -4,7 +4,41 @@
     gap: 30px;
  }
  
- 
+ @media screen and (max-width: 767px) {
+     .title {
+
+        align-items: center;
+
+     }
+
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1199px) {
+     .benefit-list {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 30px;
+     }
+
+ }
+ @media screen and (min-width: 1200px) {
+     .title{
+         align-items: left;
+     }
+
+ }
+
+ .elements {
+     //  margin-right: 30px;
+     column-gap: 30px;
+ }
+
+ .benefit-list {
+     display: flex;
+     //  flex-direction: row;
+     //  flex-wrap: wrap;
+     gap: 30px;
+ }
  
  
  .antenna-box {
@@ -26,9 +60,11 @@
     }
 
 .title {
+   
+//    align-items: center;
     margin-bottom: 10px;
-    }
-
+   
+}
 .text {
     padding-bottom: 30px;
     color: var(--secondary-text-color);
@@ -61,7 +97,7 @@
         width: 270px;
         
     }
-      
+} 
 
 // .benefit-list{
 //     // display: flex;
@@ -69,22 +105,7 @@
 //     flex-basis: calc((100% - 90px)/4); 
 // }
 
-@media screen and (max-width: 767px) {
-    .title{
-        text-align: center;
 
-    }
-   
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-    .benefit-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
-
-    }
     
 
     // .benefit-list{
@@ -107,23 +128,7 @@
 
 
 
-@media screen and (min-width: 1200px) {
-        .title {
-            align-items: left;
-          }
-       
-        }
-        .elements {
-            //  margin-right: 30px;
-             column-gap: 30px;
-         }
-                 .benefit-list{
-                     display: flex;
-                    //  flex-direction: row;
-                    //  flex-wrap: wrap;
-                     gap: 30px;
-                 }
-   }       
+
 
    
 
@@ -157,11 +162,4 @@
 //     align-items: center;
 //     gap: 30px;
 //     background-color: #F5F4FA;
-// }
-
-// .antenna-icon {
-//     width: 70px;
-//     height: 70px;
-//     justify-content: center;
-//     align-items: center;
 // }

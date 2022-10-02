@@ -3,7 +3,13 @@
     padding-right: 15px;
   
 }
-
+@media screen and (max-width: 480px) {
+    .container{
+        width: 100%;
+       
+    }
+    
+}
 @media screen and (min-width:480px) {
  .container{
     width: 480px;

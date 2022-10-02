@@ -58,18 +58,18 @@
 
  .social-page {
        display: block;
-       margin-bottom: 0;
-       margin-top: 0;
+    //   padding-bottom: 60px;
+    //   padding-top: 60px;
        list-style: none;
  }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
     .social-page{
         display: flex;
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .social-page {
         display: flex;
         align-items: baseline;
@@ -87,17 +87,17 @@
      gap: 10px;
  }
 
-   @media screen and (min-width:1200px) {
+   @media screen and (min-width: 1200px) {
         .social-list-focuse {
           justify-content: space-between;
        }
    }
  
- .social-list-page{
-    margin-top: 60px;
- }
+//  .social-list-page{
+//     margin-top: 60px;
+//  }
  
- @media screen and (min-width:1200px) {
+ @media screen and (min-width: 1200px) {
      .social-list-page {
       margin-left: 70px;
      }
